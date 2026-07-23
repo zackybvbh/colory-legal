@@ -153,7 +153,7 @@ changes take effect means you accept the updated Terms.
 
 ## 13. Governing law
 
-These Terms are governed by the laws of **[COUNTRY/STATE OF GOVERNING LAW]**, without regard to
+These Terms are governed by the laws of **the Czech Republic**, without regard to
 its conflict-of-laws rules, unless mandatory consumer-protection laws of your country of
 residence apply.
 
