@@ -1,3 +1,8 @@
+---
+title: Colory — Privacy Policy
+permalink: /privacy
+---
+
 # Colory — Privacy Policy / Политика конфиденциальности
 
 **Last updated: July 23, 2026**
@@ -10,7 +15,7 @@ Contact / Контакты: **zackysstudio@gmail.com**
 > have it reviewed by a qualified professional before you rely on it.
 
 This Privacy Policy explains how **Colory** ("the App", "we", "us"), published by
-**ZackysStudio**, handles information when you use the App. The App is a color-by-numbers /
+**ZackysStudio**, handles information when you use the App. The App is a color-by-numbers 
 pixel-art coloring game for a general audience. **It is not directed to children under 13**
 (or the equivalent minimum age in your country).
 
@@ -31,6 +36,8 @@ By using the App you agree to this Policy.
   sign in.
 - Photos you pick or take to create your own coloring pages are processed **on your device**
   and are **not uploaded** to us or anyone else.
+- Data exchanged between the App and these services is protected **in transit using
+  encryption (HTTPS/TLS)**.
 
 ---
 
@@ -81,10 +88,11 @@ See Google's policies: https://policies.google.com/technologies/ads
 
 ### 2.6 Analytics (Google Firebase Analytics)
 
-The App includes **Firebase Analytics**, which collects aggregated usage and device
-information (such as app opens, events, device model, OS version, and an app-instance
-identifier) to help us understand how the App is used and improve it. This data is processed
-by Google. See: https://firebase.google.com/support/privacy
+The App includes **Firebase Analytics**, which collects aggregated usage, diagnostic, and
+device information — such as app opens, in-app events, **crash and error reports**, **app and
+device performance/diagnostic data**, device model, OS version, and an app-instance identifier
+— to help us understand how the App is used, fix problems, and improve it. This data is
+processed by Google. See: https://firebase.google.com/support/privacy
 
 ### 2.7 Subscriptions and purchases (RevenueCat & Google Play Billing)
 
@@ -135,10 +143,18 @@ dedicated camera permission.
 
 ## 5. Data sharing
 
-We share data only with the service providers named above (Google Firebase, Google AdMob,
-Google Play Games, Google Play Billing, and RevenueCat), each acting under its own privacy
-policy, and only as needed to provide the App's features. We may also disclose information if
-required by law.
+We share data only with the providers named above, and only as needed to provide the App's
+features:
+
+- Most providers — **Google Firebase, Google Play Games, Google Play Billing, and
+  RevenueCat** — act as our **service providers**, processing data on our behalf to deliver
+  content, cloud sync, analytics, and subscriptions.
+- **Google AdMob** acts as an **independent advertising partner**. To show ads, your
+  **advertising identifier** and **approximate (coarse) location** are shared with AdMob,
+  which uses them for its own advertising purposes under its own privacy policy.
+
+We may also disclose information if required by law. We do **not** sell your personal
+information.
 
 ---
 
