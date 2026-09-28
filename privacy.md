@@ -54,11 +54,9 @@ Section 2.4:
 - **Your own coloring pages** — pictures you create from your camera or gallery, stored
   locally on your device.
 
-### 2.2 Anonymous identifier (Google Firebase Authentication)
+### 2.2 Content delivery (our server and Cloudflare)
 
-To load the picture catalog the App signs you in **anonymously** with Firebase. This creates
-a random, anonymous identifier that is **not** linked to your name or Google account and is
-used only to authorize read access to our content. We do not use it to identify you.
+The App downloads its picture catalog and image files from a server operated by us (colory-api.zackysstudio.com). The connection is delivered through Cloudflare, which provides secure delivery (HTTPS) and protection against abuse and may process technical data needed to serve the request, such as your IP address. The App uses an access key that is the same for all users and does not identify you. We do not create accounts or user identifiers for this purpose, and our server logs contain only the requested path, response status and timing, not IP addresses. We do not upload your personal data, progress or photos to our server. Earlier versions of the App used Google Firebase (Authentication, Firestore and Cloud Storage) for the same purpose.
 
 ### 2.3 Content delivery (Google Firebase Firestore & Cloud Storage)
 
@@ -80,19 +78,11 @@ coloring progress across your devices using the Play Games "Saved Games" (Snapsh
 
 ### 2.5 Advertising (Google AdMob)
 
-The App shows rewarded ads (which you choose to watch to earn in-app items). Ads are provided
-by **Google AdMob**, which may process your **advertising identifier**, device information,
-and general (coarse) location, and may show personalized or non-personalized ads depending on
-your settings and consent. AdMob acts as an independent third party.
-See Google's policies: https://policies.google.com/technologies/ads
+The App shows banner, interstitial and rewarded ads (you choose to watch rewarded ads to earn in-app items). Ads are provided by **Google AdMob**, which may process your **advertising identifier**, device information, and general (coarse) location, and may show personalized or non-personalized ads depending on your consent. Where required (for example in the EEA and the UK) we ask for your consent using Google's consent form, and you can change your choice at any time in Settings → Ad privacy settings. AdMob acts as an independent third party. See Google's policies: https://policies.google.com/technologies/ads
 
 ### 2.6 Analytics (Google Firebase Analytics)
 
-The App includes **Firebase Analytics**, which collects aggregated usage, diagnostic, and
-device information — such as app opens, in-app events, **crash and error reports**, **app and
-device performance/diagnostic data**, device model, OS version, and an app-instance identifier
-— to help us understand how the App is used, fix problems, and improve it. This data is
-processed by Google. See: https://firebase.google.com/support/privacy
+The App includes **Firebase Analytics**, which collects aggregated usage and device information — such as app opens, in-app events, device model, OS version, and an app-instance identifier — to help us understand how the App is used and improve it. This data is processed by Google. See: https://firebase.google.com/support/privacy
 
 ### 2.7 Subscriptions and purchases (RevenueCat & Google Play Billing)
 
