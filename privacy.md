@@ -5,17 +5,14 @@ permalink: /privacy
 
 # Colory — Privacy Policy / Политика конфиденциальности
 
-**Last updated: July 23, 2026**
+**Last updated: October 5, 2026**
 
 Developer / Разработчик: **ZackysStudio**
 App / Приложение: **Colory — color-by-numbers coloring game**
 Contact / Контакты: **zackysstudio@gmail.com**
 
-> This document describes the app's actual data practices but is **not legal advice**;
-> have it reviewed by a qualified professional before you rely on it.
-
 This Privacy Policy explains how **Colory** ("the App", "we", "us"), published by
-**ZackysStudio**, handles information when you use the App. The App is a color-by-numbers 
+**ZackysStudio**, handles information when you use the App. The App is a color-by-numbers
 pixel-art coloring game for a general audience. **It is not directed to children under 13**
 (or the equivalent minimum age in your country).
 
@@ -25,15 +22,17 @@ By using the App you agree to this Policy.
 
 ## 1. Summary
 
-- We do **not** ask you for your name, email, phone number, or address.
+- We do **not** ask you for your name, email, phone number, or address, and the App has no
+  accounts of its own.
 - Most of your data — your coloring progress, settings, and any pictures you create from
   your own photos — stays **on your device**.
-- We use trusted third-party services (Google Firebase, Google AdMob, Google Play Games,
-  and RevenueCat via Google Play Billing) that process limited technical and usage data as
-  described below.
+- The App downloads its pictures from a server operated by us, delivered through
+  **Cloudflare**. We do not store your IP address in our server logs.
+- We use trusted third-party services (Google AdMob, Google Firebase Analytics, Google Play
+  Games, and RevenueCat via Google Play Billing) that process limited technical and usage data
+  as described below.
 - If you sign in to **Google Play Games**, your coloring progress can be backed up to your
-  own Google Drive so it syncs between your devices. This is optional and off unless you
-  sign in.
+  own Google Drive so it syncs between your devices. This is optional.
 - Photos you pick or take to create your own coloring pages are processed **on your device**
   and are **not uploaded** to us or anyone else.
 - Data exchanged between the App and these services is protected **in transit using
@@ -46,26 +45,33 @@ By using the App you agree to this Policy.
 ### 2.1 Information stored only on your device
 
 The following never leaves your device except through the optional cloud sync described in
-Section 2.4:
+Section 2.3:
 
 - **Coloring progress** — which pictures you have started or finished and how far.
-- **App settings** — theme, language, vibration and other preferences.
+- **App settings** — theme, language, library filter, vibration and other preferences.
 - **In-app items** — your counts of magic wands and color bombs.
 - **Your own coloring pages** — pictures you create from your camera or gallery, stored
   locally on your device.
+- **Downloaded pictures and a copy of the catalog** — kept on your device so the App also
+  works without an internet connection.
 
 ### 2.2 Content delivery (our server and Cloudflare)
 
-The App downloads its picture catalog and image files from a server operated by us (colory-api.zackysstudio.com). The connection is delivered through Cloudflare, which provides secure delivery (HTTPS) and protection against abuse and may process technical data needed to serve the request, such as your IP address. The App uses an access key that is the same for all users and does not identify you. We do not create accounts or user identifiers for this purpose, and our server logs contain only the requested path, response status and timing, not IP addresses. We do not upload your personal data, progress or photos to our server. Earlier versions of the App used Google Firebase (Authentication, Firestore and Cloud Storage) for the same purpose.
+The App downloads its picture catalog and image files from a server operated by us
+(colory-api.zackysstudio.com). The connection is delivered through **Cloudflare**, which
+provides secure delivery (HTTPS) and protection against abuse and may process technical data
+needed to serve the request, such as your IP address. See Cloudflare's privacy policy:
+https://www.cloudflare.com/privacypolicy/
 
-### 2.3 Content delivery (Google Firebase Firestore & Cloud Storage)
+The App sends an access key that is the same for all users and does not identify you. We do
+not create accounts or user identifiers for this purpose. Our own server logs contain only
+the requested path, the response status and the response time — **not IP addresses** or
+device information. We do not upload your personal data, progress or photos to our server.
 
-The App downloads its picture catalog and image files from Firebase. To do this, Google
-processes technical data required to serve the request (such as your IP address and device
-information). We do **not** upload any of your personal data, progress, or photos to Firestore
-or Cloud Storage.
+Earlier versions of the App used Google Firebase (Authentication, Firestore and Cloud
+Storage) for the same purpose; the current version does not.
 
-### 2.4 Cloud sync of progress (Google Play Games — Saved Games)
+### 2.3 Cloud sync of progress (Google Play Games — Saved Games)
 
 If you choose to **sign in with Google Play Games**, the App can back up and sync your
 coloring progress across your devices using the Play Games "Saved Games" (Snapshots) feature.
@@ -76,15 +82,27 @@ coloring progress across your devices using the Play Games "Saved Games" (Snapsh
 - You control this: you can turn syncing off, sync on demand, switch accounts, or clear all
   progress from within the App's Settings. Sign-in is managed by the Google Play Games app.
 
-### 2.5 Advertising (Google AdMob)
+### 2.4 Advertising (Google AdMob)
 
-The App shows banner, interstitial and rewarded ads (you choose to watch rewarded ads to earn in-app items). Ads are provided by **Google AdMob**, which may process your **advertising identifier**, device information, and general (coarse) location, and may show personalized or non-personalized ads depending on your consent. Where required (for example in the EEA and the UK) we ask for your consent using Google's consent form, and you can change your choice at any time in Settings → Ad privacy settings. AdMob acts as an independent third party. See Google's policies: https://policies.google.com/technologies/ads
+The App shows banner, interstitial and rewarded ads (you choose to watch rewarded ads to earn
+in-app items). Ads are provided by **Google AdMob**, which may process your **advertising
+identifier**, device information, and general (coarse) location, and may show personalized
+or non-personalized ads depending on your consent. Where required (for example in the EEA and
+the UK) we ask for your consent using Google's consent form, and you can change your choice at
+any time in Settings → Ad privacy settings. You can also reset or delete your advertising ID
+in your device settings. AdMob acts as an independent third party. See Google's policies:
+https://policies.google.com/technologies/ads
 
-### 2.6 Analytics (Google Firebase Analytics)
+Subscribers to Premium do not see ads.
 
-The App includes **Firebase Analytics**, which collects aggregated usage and device information — such as app opens, in-app events, device model, OS version, and an app-instance identifier — to help us understand how the App is used and improve it. This data is processed by Google. See: https://firebase.google.com/support/privacy
+### 2.5 Analytics (Google Firebase Analytics)
 
-### 2.7 Subscriptions and purchases (RevenueCat & Google Play Billing)
+The App includes **Firebase Analytics**, which collects aggregated usage and device
+information — such as app opens, in-app events, device model, OS version, and an app-instance
+identifier — to help us understand how the App is used and improve it. This data is processed
+by Google. See: https://firebase.google.com/support/privacy
+
+### 2.6 Subscriptions and purchases (RevenueCat & Google Play Billing)
 
 If you buy a **Premium** subscription, the transaction is handled by **Google Play Billing**.
 We use **RevenueCat** to validate and manage subscription status. RevenueCat processes a
@@ -92,13 +110,13 @@ purchase token and an anonymous app-user identifier to confirm whether your subs
 active. **We never receive or store your full payment card details** — those are handled by
 Google Play. See: https://www.revenuecat.com/privacy
 
-### 2.8 Camera and photos
+### 2.7 Camera and photos
 
 If you create your own coloring page, the App accesses a photo you take or select. The photo
 is processed **entirely on your device** to turn it into a color-by-number picture and is
 stored locally. It is **not** sent to us or any third party.
 
-### 2.9 Saving to your gallery
+### 2.8 Saving to your gallery
 
 When you save a finished coloring, the App writes the image to your device's gallery
 (Pictures/Colory). On Android 9 and older this uses the storage permission described in
@@ -114,7 +132,11 @@ We (and our providers, for their own described purposes) use the information to:
 - keep your progress and, if you opt in, sync it across your devices;
 - show ads and grant in-app rewards;
 - process and validate subscriptions;
+- protect our server from abuse;
 - understand usage and fix problems, through aggregated analytics.
+
+Where required by law (for example in the EEA and the UK), advertising and analytics rely on
+your consent, which you give or withdraw through Google's consent form.
 
 We do **not** sell your personal information.
 
@@ -122,9 +144,15 @@ We do **not** sell your personal information.
 
 ## 4. Permissions the App requests
 
-- **Internet** — to download pictures and use the online services above.
+- **Internet** and **network state** — to download pictures and to show whether you are
+  online.
 - **Vibration** — for haptic feedback while coloring (optional, controlled in Settings).
 - **Storage (write, Android 9 and older only)** — to save finished colorings to your gallery.
+- **Advertising ID** — requested by the advertising libraries so AdMob can show ads (you can
+  reset or delete it in your device settings).
+- **Billing** — to offer the Premium subscription through Google Play.
+- Technical permissions (such as keeping the device awake briefly or running short background
+  tasks) that the advertising and analytics libraries need to work reliably.
 
 The App uses the standard system photo picker / camera flow and does **not** request a
 dedicated camera permission.
@@ -136,9 +164,9 @@ dedicated camera permission.
 We share data only with the providers named above, and only as needed to provide the App's
 features:
 
-- Most providers — **Google Firebase, Google Play Games, Google Play Billing, and
-  RevenueCat** — act as our **service providers**, processing data on our behalf to deliver
-  content, cloud sync, analytics, and subscriptions.
+- **Google Firebase (Analytics), Google Play Games, Google Play Billing, RevenueCat and
+  Cloudflare** act as our **service providers**, processing data on our behalf to deliver
+  content, cloud sync, analytics, subscriptions and secure delivery.
 - **Google AdMob** acts as an **independent advertising partner**. To show ads, your
   **advertising identifier** and **approximate (coarse) location** are shared with AdMob,
   which uses them for its own advertising purposes under its own privacy policy.
@@ -154,7 +182,10 @@ information.
   the app's data, or uninstall the App. You can reset all coloring progress in Settings.
 - **Cloud-synced progress** stays in your Google Drive app-data folder until you clear it
   (Settings → "Clear all progress" with sync enabled) or remove it via your Google account.
+- **Our server** does not store personal data about you, so there is nothing to delete there.
 - **Provider data** is retained according to each provider's own policy (linked above).
+
+How to delete your data, step by step: https://zackybvbh.github.io/colory-legal/delete
 
 To request information or deletion of any data we control, contact us at
 **zackysstudio@gmail.com**.
@@ -173,9 +204,9 @@ Drive data in your Google account.
 
 ## 8. International transfers
 
-Our providers may process data on servers located outside your country, including in the
-United States and the European Union. Where required, transfers rely on appropriate
-safeguards under the providers' own frameworks.
+Our providers, including Cloudflare, Google and RevenueCat, may process data on servers
+located outside your country, including in the United States and the European Union. Where
+required, transfers rely on appropriate safeguards under the providers' own frameworks.
 
 ---
 
