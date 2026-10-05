@@ -1,14 +1,15 @@
+---
+title: Colory — Terms of Use
+permalink: /terms
+---
+
 # Colory — Terms of Use / Условия использования
 
-**Last updated: September 28, 2026**
+**Last updated: October 5, 2026**
 
 Developer / Разработчик: **ZackysStudio**
 App / Приложение: **Colory — color-by-numbers coloring game**
 Contact / Контакты: **zackysstudio@gmail.com**
-
-> **Before publishing:** replace in Section 13 with your
-> jurisdiction. This document is **not legal advice**; have it reviewed by a qualified
-> professional before you rely on it.
 
 These Terms of Use ("Terms") govern your use of the mobile application **Colory** ("the App"),
 provided by **ZackysStudio** ("we", "us"). By downloading, installing, or using the App, you
@@ -37,8 +38,9 @@ entertainment. You must not:
   where such restriction is prohibited by law;
 - rent, sell, sublicense, or redistribute the App or its content;
 - use the App in any unlawful way or to infringe others' rights;
-- attempt to bypass, disable, or interfere with security, billing, ads, or other features.
-- access our servers or the App's content other than through the App, or use bots, scrapers or other automated means to download pictures or data;
+- attempt to bypass, disable, or interfere with security, billing, ads, or other features;
+- access our servers or the App's content other than through the App, or use bots, scrapers
+  or other automated means to download pictures or data.
 
 The App and its content (pictures, artwork, code, trademarks) are owned by us or our licensors
 and are protected by law. These Terms do not transfer any ownership to you.
@@ -71,7 +73,8 @@ example by watching ads) or receive with a subscription. These items:
 The App offers an optional **Premium** subscription that unlocks features such as VIP pictures,
 removal of ads, and unlimited in-app items.
 
-- Subscriptions are sold and billed through **Google Play**. Prices, billing periods.
+- Subscriptions are sold and billed through **Google Play**. Prices and billing periods are
+  shown at the point of purchase.
 - Unless cancelled, subscriptions **renew automatically** at the end of each period, and your
   Google Play account is charged for the renewal.
 - You can manage or cancel a subscription in your **Google Play account settings**. Cancelling
@@ -85,7 +88,10 @@ We use RevenueCat to determine your subscription status, as described in the Pri
 
 ## 6. Advertising
 
-The App is supported by advertising, including banner, interstitial and rewarded ads (rewarded ads are optional and you may choose to watch them to earn in-app items). Ads are served by third parties (see the Privacy Policy). We are not responsible for the content of third-party ads or for websites or products they link to.
+The App is supported by advertising, including banner, interstitial and rewarded ads
+(rewarded ads are optional and you may choose to watch them to earn in-app items). Ads are
+served by third parties (see the Privacy Policy). We are not responsible for the content of
+third-party ads or for websites or products they link to.
 
 ---
 
@@ -102,8 +108,10 @@ Sync is provided on a best-effort basis.
 ## 8. Availability and changes to the App
 
 We may update, change, suspend, or discontinue the App or any feature (including online
-services, content, ads, or items) at any time, with or without notice. Online features depend
-on third-party services and internet access, which may be unavailable at times.
+services, content, ads, or items) at any time, with or without notice. Online features, such
+as downloading new pictures, depend on our server, third-party services and internet access,
+which may be unavailable at times. Pictures you have already downloaded can still be colored
+without a connection.
 
 ---
 
